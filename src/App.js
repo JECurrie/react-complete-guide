@@ -5,7 +5,7 @@ import Person from "./Person/Person";
 class App extends React.Component {
   state = {
     persons: [
-      { name: "Max", age: 28 },
+      { name: "Joan", age: 28 },
       { name: "Manu", age: 28 },
       { name: "Stephanie", age: 26 },
     ],
@@ -25,7 +25,7 @@ class App extends React.Component {
   nameChangeHandler = (event) => {
     this.setState({
       persons: [
-        { name: "Max", age: 28 },
+        { name: "Joan", age: 28 },
         { name: event.target.value, age: 28 },
         { name: "Stephanie", age: 27 },
       ],
